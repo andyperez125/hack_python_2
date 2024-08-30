@@ -10,7 +10,7 @@ def fn_hack_10(input_list):
     key_counter = 1
     value_counter = 2
     
-    # Procesamos  cada diccionario en la lista de entrada
+    # Procesamos  cada diccionario en la lista de entrada .
     for dic in input_list:
         new_dic = {}
         for key in dic:
