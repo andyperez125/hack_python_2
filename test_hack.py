@@ -26,8 +26,8 @@ def test_hack_2():
 
 
 def test_hack_3():
-    assert fn_hack_3("fooziman") == "F00z¡m@N"
-    assert fn_hack_3("barziman") == "B@rz¡m@N"
+    assert fn_hack_3("fooziman") == "F00z¡m@n"
+    assert fn_hack_3("barziman") == "B@rz¡m@n"
     assert fn_hack_3("3q") == "3Q"
     assert fn_hack_3("qu") == "Qv"
     assert fn_hack_3("qux") == "QvX"
